@@ -51,6 +51,7 @@ Build output is written to `landing-page/dist/`.
 
 GitHub Pages deployment is handled by `.github/workflows/pages.yml`.
 
+- Before the first deploy, a repo owner or admin must enable **Settings > Pages** and select **GitHub Actions** as the source.
 - On **pull requests**, the workflow runs install/build validation only.
 - On **push to `main`**, it builds and deploys to GitHub Pages.
 
